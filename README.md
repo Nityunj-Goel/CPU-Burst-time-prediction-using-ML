@@ -8,12 +8,12 @@ The implementation of CPU-Scheduling algorithms such as Shortest-Job-First (SJF)
 
 These steps are summarized as following:
 
-Preparing/creating the dataset: The dataset is analysed and the columns having missing values and those having a zero correlation coefficient are dropped and the final dataset is created.
+* Preparing/creating the dataset: The dataset is analysed and the columns having missing values and those having a zero correlation coefficient are dropped and the final dataset is created.
 
-Attributes filtering/selecting: Feature selection techniques were applied to select the most significant attributes by applying feature selection technique. And after that normalization is applied on the dataset.
+* Attributes filtering/selecting: Feature selection techniques were applied to select the most significant attributes by applying feature selection technique. And after that normalization is applied on the dataset.
 
-Generating the model: In this step ML techniques are applied on the dataset.
+* Generating the model: In this step ML techniques are applied on the dataset.
 
-Evaluating the model: In this step, the testing dataset was used to evaluate the generated model, in the previous step. The performance of the generated model was then evaluated in terms of Correlation Coefficient (CC) and R2 Score(R2_Score).
+* Evaluating the model: In this step, the testing dataset was used to evaluate the generated model, in the previous step. The performance of the generated model was then evaluated in terms of Correlation Coefficient (CC) and R2 Score(R2_Score).
 
-Predicting the CPU burst time of the test data.
+* Predicting the CPU burst time of the test data.
